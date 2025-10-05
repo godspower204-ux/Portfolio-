@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Godspower | My Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 40px;
+    }
+
+    h1 {
+      color: #0066cc;
+    }
+
+    h2 {
+      color: #444;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+    .hero {
+  text-align: center; /* Centers everything inside the hero section */
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 150px;        /* Size of your image */
+  height: 150px;
+  border-radius: 50%;  /* Makes it a perfect circle */
+  object-fit: cover;   /* Keeps your image proportions correct */
+  border: 3px solid #0066cc; /* Blue border around your image */
+  margin-bottom: 20px; /* Space below the image */
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+/* Navigation Bar */
+.navbar {
+  background-color: #0066cc;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+/* Footer */
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div id="home" class="hero">
+    <img src="profile.jpg" alt="Godspower Photo" class="profile-pic">
+    <h1>Hi, I'm Godspower 👋</h1>
+    <p>Welcome to my portfolio! I'm learning web development and building my first website step by step. Stay tuned as I grow and add my projects here!</p>
+  </div>
+
+  <hr>
+
+  <div id="about">
+    <h2>About Me</h2>
+    <p>I'm a beginner web developer passionate about creating websites and learning how the web works. I love experimenting with HTML, CSS, and new ideas.</p>
+  </div>
+
+  <hr>
+
+  <div id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some projects I’ll be adding soon:</p>
+    <ul>
+      <li>Personal Portfolio Website</li>
+      <li>Simple Calculator App</li>
+      <li>To-Do List</li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at: <a href="mailto: godspower204@gmail.com">Contact via Email ✉️</a></p>
+  </div>
+  <footer class="footer">
+  <p>© 2025 Godspower | Built with ❤️ using HTML & CSS</p>
+</footer>
+</body>
